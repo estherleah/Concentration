@@ -8,4 +8,4 @@ A memory game based on [GitHub On Demand Training - Electron](https://services.g
 2. Navigate to the newly created project folder: `cd Concentration`
 3. Install the dependencies: `npm install`
 4. Start the application: `npm start`
-5. Package the application: `npm run build`
+5. Package the application: `npm make`

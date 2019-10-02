@@ -34,25 +34,25 @@ const pad = val => val > 9 ? val : "0" + val;
 let card_id = 0;
 for (let i = 0; i < 4; i++) {
   for (let j = 0; j < 6; j++) {
-		const div = document.createElement('div');
-		div.classList.add('card');
-		div.dataset.id = card_id;
-		room.appendChild(div);
-		const front = document.createElement('div');
-		front.classList.add('front');
-		front.classList.add('face');
+    const div = document.createElement('div');
+    div.classList.add('card');
+    div.dataset.id = card_id;
+    room.appendChild(div);
+    const front = document.createElement('div');
+    front.classList.add('front');
+    front.classList.add('face');
 
-		const back = document.createElement('div');
-		back.classList.add('back');
-		back.classList.add('face');
-		back.dataset.bid = 0;
+    const back = document.createElement('div');
+    back.classList.add('back');
+    back.classList.add('face');
+    back.dataset.bid = 0;
 
-		div.appendChild(front);
-		div.appendChild(back);
+    div.appendChild(front);
+    div.appendChild(back);
     card_id++;
   }
 
-	const br = document.createElement('br');
+  const br = document.createElement('br');
   room.appendChild(br);
 }
 
@@ -73,7 +73,7 @@ again.addEventListener('click', () => {
   stop_fc = true;
   start.style.display = 'inline-block';
   board.style.display = 'none';
-	const cards = document.querySelectorAll('.card');
+  const cards = document.querySelectorAll('.card');
   Array.from(cards).forEach(card => card.classList.remove('fliped'));
   randomIMG();
   flip_auto();
@@ -182,7 +182,7 @@ function flip_auto(time) {
     if(stop_fa) return;
 
     const r_ran = randomNum(1, 24);
-		const rEl = document.querySelector(`[data-id="${r_ran}"]`);
+    const rEl = document.querySelector(`[data-id="${r_ran}"]`);
     if (rEl) rEl.classList.toggle('flip');
 
     const newTime = randomNum(500, 1000);
