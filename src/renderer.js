@@ -1,16 +1,16 @@
 const img = [
-  'https://octodex.github.com/images/steroidtocat.png',
-  'https://octodex.github.com/images/megacat-2.png',
-  'https://octodex.github.com/images/dodgetocat_v2.png',
-  'https://octodex.github.com/images/mcefeeline.jpg',
-  'https://octodex.github.com/images/ironcat.jpg',
-  'https://octodex.github.com/images/gracehoppertocat.jpg',
-  'https://octodex.github.com/images/spidertocat.png',
-  'https://octodex.github.com/images/octocat-de-los-muertos.jpg',
-  'https://octodex.github.com/images/saritocat.png',
-  'https://octodex.github.com/images/plumber.jpg',
-  'https://octodex.github.com/images/linktocat.jpg',
-  'https://octodex.github.com/images/kimonotocat.png'
+  'images/steroidtocat.png',
+  'images/megacat-2.png',
+  'images/dodgetocat_v2.png',
+  'images/mcefeeline.jpg',
+  'images/ironcat.jpg',
+  'images/gracehoppertocat.jpg',
+  'images/spidertocat.png',
+  'images/octocat-de-los-muertos.jpg',
+  'images/saritocat.png',
+  'images/plumber.jpg',
+  'images/linktocat.jpg',
+  'images/kimonotocat.png'
 ];
 
 let total = 0;

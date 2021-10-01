@@ -58,7 +58,7 @@ body {
 }
 .room .card .front {
 	position: absolute;
-	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/profile/profile-512.jpg);
+	background: url(images/profile-512.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	z-index: 1;
